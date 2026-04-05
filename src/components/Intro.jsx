@@ -3,7 +3,8 @@ import Navbar from "./Navbar";
 import email from '/email.svg';
 import linkedin from '/linkedin.svg';
 import github from '/github.svg';
-import Mya from '/Mya.pdf';
+import Mya from '/MD_CV.pdf';
+import Icon from '/imgprofile.png';
 
 
 
@@ -13,11 +14,11 @@ function Intro() {
 
 
             <Navbar />
-            <main id="home" className="flex flex-col md:flex-row items-center justify-center w-full px-4 md:px-52 pb-4 md: pb-24 md:pt-32 
-            pt-24 mt-14 md:mt-0 z-10">
+            <main id="home" className="flex flex-col md:flex-row items-center justify-between w-full px-8 md:px-32 pb-4 md:pb-24 md:pt-32 pt-24 mt-14 md:mt-0 z-10
+           ">
 
 
-                <section className="flex-1 mr-28 md:text-left mt-10 md:mt-0 relative"
+                <section className="flex-1  md:text-left mt-10 md:mt-0 relative"
 
                     data-aos='fade-up'
                     data-aos-delay='300'
@@ -37,7 +38,7 @@ function Intro() {
                     <p className="text-base sm:text-lg md:text-lg text-slate-300 mb-6 font-medium">
 
                         Final year
-                        Bsc Computer Science student
+                        BSc Computer Science student
                     </p>
                     <div className="flex items-center space-x-4 mb-6">
 
@@ -45,7 +46,7 @@ function Intro() {
                             <img src={linkedin} alt="LinkedIn" className="w-11 h-11"></img>
                         </a>
 
-                        <a href="mailto:myakdhaliwal@email.com">
+                        <a href="mailto:myakdhaliwal@yahoo.com">
 
                             <img src={email} alt="Email" className="w-11 h-11"></img>
                         </a>
@@ -65,7 +66,13 @@ function Intro() {
 
                 </section>
 
+                <section className="flex-1 flex justify-center items-center mt-10 md:mt-0"
+                    data-aos='fade-left'
+                    data-aos-delay='500'>
 
+                    <img src={Icon}
+                        alt="Mya"
+                        className="w-80 h-auto sm:w-96 md:w [30rem] lg:w -[34rem] object-contain " /> </section>
 
 
             </main>

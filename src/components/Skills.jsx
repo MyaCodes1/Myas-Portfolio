@@ -5,15 +5,23 @@ import html from '/html.svg';
 import css from '/css.svg';
 import react from '/react.svg';
 import javascript from '/javascript.svg';
+import github from '/github.svg';
+import sql from '/sql.svg';
+import figma from '/figma.svg';
 //import imgprofile from '/imgprofile.png';
 
 const skillsData = [
-    { id: 1, image: tailwindcss, title: 'Tailwind CSS', description: '' },
-    { id: 2, image: python, title: 'Python', description: '' },
+    { id: 1, image: react, title: 'React', description: '' },
+    { id: 2, image: tailwindcss, title: 'Tailwind CSS', description: '' },
     { id: 3, image: html, title: 'HTML', description: '' },
     { id: 4, image: css, title: 'CSS', description: '' },
-    { id: 5, image: react, title: 'React', description: '' },
-    { id: 6, image: javascript, title: 'JavaScript', description: '' },
+    { id: 5, image: javascript, title: 'JavaScript', description: '' },
+    { id: 6, image: python, title: 'Python', description: '' },
+    { id: 7, image: github, title: 'GitHub', description: '' },
+    { id: 8, image: sql, title: 'SQL', description: '' },
+    { id: 9, image: figma, title: 'Figma', description: '' },
+
+
 
 ];
 
@@ -45,7 +53,7 @@ transform -translate-x-1/2'></div>
             <div data-aos='fade-up' data-aos-delay='500' className="relative z-20 text-center space-y-6 sm:space-y-10"></div>
             <header className="text-center">
                 <h1 className="text-3xl sm:text-4xl font-bold mb-6">
-                    My experience <br /> and <span className="text-[#64FFDA]">Skills</span>
+                    My <br /> and <span className="text-[#64FFDA]">Technologies</span>
                 </h1>
                 <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
                     As a Computer Science student, I am always wanting to perfect and expand my skills. Here are some of the technologies I have learnt and am currently learning.
@@ -53,7 +61,7 @@ transform -translate-x-1/2'></div>
             </header>
 
             <section data-aos='fade-up' data-aos-delays='500'
-                className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 mt-4">
+                className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-3 gap-4 sm:gap-6 mt-4">
                 {skillsData.map((skill) => (
                     <SkillBox
                         key={skill.id} image={skill.image}

@@ -7,7 +7,7 @@ function Navbar() {
         { id: 1, name: 'Home', link: '#home' },
         { id: 2, name: 'Projects', link: '#projects' },
         { id: 3, name: 'Skills', link: '#skills' },
-        { id: 4, name: 'Contact', link: '#contact' },
+        { id: 4, name: 'Contact', link: 'mailto:myakdhaliwal@yahoo.com' },
         //add timeline after
     ];
     return (
@@ -22,7 +22,7 @@ function Navbar() {
                 </button>
 
                 {/* Desktop Menu Toggle */}
-                <nav className='hidden md:flex items center space-x-7'>
+                <nav className='hidden md:flex items-center space-x-7 ml-auto'>
                     {NavBarLinks.map((link) => (
                         <a key={link.id} href={link.link} className='hover:text-gray-200 text-lg'>
                             {link.name}

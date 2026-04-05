@@ -3,6 +3,7 @@ import CISCO from '/CISCO.png';
 import ai from '/ai.png';
 import bookshop from '/bookshop.png';
 import portfolio from '/portfolio.png';
+import speech from '/speech.png';
 
 
 const ProjectCard = ({ image, title, description, link }) => {
@@ -47,29 +48,36 @@ function Projects() {
         {
             image: portfolio,
             title: 'Portfolio website',
-            description: 'I have designed and developed a personal portfolio using React and Tailwind CSS to showcase my projects and skills. This is in ongoing development alongside my studies, with regular updates and improvements.',
+            description: 'Developed a personal portfolio using React and Tailwind CSS to showcase my projects and skills. This is in ongoing development alongside my studies, with regular updates and improvements.',
             link: "https://github.com/MyaCodes1/myasportfolio",
         },
 
         {
             image: CISCO,
             title: 'Network project',
-            description: 'I designed a scalable network for a company across offices in two different cities. It included: CIDR addressing, RIP routing, DHCP and SSH authentication',
+            description: 'Designed a scalable network for a company across offices in two different cities. It included: CIDR addressing, RIP routing, DHCP and SSH authentication',
             link: 'https://github.com/MyaCodes1/networks-portfolio-project'
         },
 
         {
             image: ai,
             title: 'Ai Pneumonia diagnosis ',
-            description: 'In progress: I am creating predictive model to classify pneumonia from clinical features using Python and scikit-learn, applying best-practice ML workflows. ',
-            link: '',
+            description: 'Built and evaluated supervised machine learning models for medical image classification. Prototyped a convolutional neural network (CNN) for image-based pneumonia diagnosis from chest X-ray datasets. Visualised model performance and data distributions to evaluate diagnostic accuracy and identify areas for improvement.',
+            link: 'https://github.com/MyaCodes1/pneumonia-detection-ai/blob/main/README.md',
         },
 
         {
             image: bookshop,
             title: 'Bookshop website',
-            description: 'I designed and developed a responsive e-commerce website using HTML, CSS and JavaScript. I implemented a JavasScript based form validationand RESTful simultation to enhance interactivity.',
+            description: 'Designed and developed a responsive e-commerce website with interactive UI elements and JavaScript form validation. Simulated RESTful workflow with structured relational data handling for products and user interactions',
             link: "https://github.com/MyaCodes1/Bookshop-project",
+        },
+
+        {
+            image: speech,
+            title: 'Speech therapy app',
+            description: 'Built a full-stack application with a React frontend and Python/FastAPI backend, focused on accessible UX for children with speech disorders. Implemented a progress-tracking dashboard with a data-driven UI, prioritising clean, maintainable code. Integrated OpenAI’s Whisper model via API, demonstrating experience connecting AI services into production-ready applications ',
+            link: "",
         },
 
     ]

@@ -24,7 +24,7 @@ function About() {
 
 
                 <p className="text-base sm:text-lg md:text-x1 text-gray-300 mb-6 sm:mb-8 leading-relaxed text-center">
-                    I'm an undergraduate Computer Science student passionate about technology and coding. I love learning new programming languages and frameworks, and I'm always eager to take on new challenges. In my free time, I enjoy working on personal projects, being outdoors and video games. Please get in touch if you have any questions!
+                    I am working towards becoming a software developer or AI engineer who builds technology that helps people. I find coding genuinely fun, especially when there’s a real end product to work towards. Outside of tech, I’m usually snowboarding, hiking or planning my next trip somewhere new. I’m also passionate about increasing representation for women in tech. I am an Amazon Engineer Scholar and a member of rewriting the code and I hope to one day build a community that makes tech feel more accessible and welcoming for women.
                 </p>
 
 
