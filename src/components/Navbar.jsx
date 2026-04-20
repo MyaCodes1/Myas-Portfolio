@@ -12,7 +12,7 @@ function Navbar() {
     ];
     return (
         <header className='fixed top-0 left-0 w-full z-20 text-white' data-aos='fade-up' data-aos-delays='300'>
-            <div className='container mx-auto flex items-center justify-between p-5'>
+            <div className='container mx-auto flex items-center justify-end p-5'>
                 {/* Logo Section */}
                 <a href='#intro' className="text-4xl font-bold italic text-white font-['Playfair_Display']"></a>
 
@@ -47,7 +47,7 @@ function Navbar() {
                 {NavBarLinks.map((link) => (
                     <a key={link.id}
                         href={link.link}
-                        className="text-lg text-white hover:text-gray-200"
+                        className="text-xl text-white hover:text-gray-200"
                         onClick={() => setIsOpen(false)}>
                     </a>
 
