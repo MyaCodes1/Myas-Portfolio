@@ -37,8 +37,7 @@ function Intro() {
 
                     <p className="text-base sm:text-lg md:text-lg text-slate-300 mb-6 font-medium">
 
-                        Final year
-                        BSc Computer Science student
+                        First class Computer Science graduate
                     </p>
                     <div className="flex items-center space-x-4 mb-6">
 
