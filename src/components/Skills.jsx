@@ -53,7 +53,7 @@ transform -translate-x-1/2'></div>
             <div data-aos='fade-up' data-aos-delay='500' className="relative z-20 text-center space-y-6 sm:space-y-10"></div>
             <header className="text-center">
                 <h1 className="text-3xl sm:text-4xl font-bold mb-6">
-                    My <br /> and <span className="text-[#64FFDA]">Technologies</span>
+                    My <br /> <span className="text-[#64FFDA]">Technologies</span>
                 </h1>
                 <p className="text-gray-400 mt-2 sm:mt-4 text-sm sm:text-base">
                     As a Computer Science student, I am always wanting to perfect and expand my skills. Here are some of the technologies I have learnt and am currently learning.
